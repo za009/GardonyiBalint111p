@@ -1,0 +1,86 @@
+/*Az oldal háttérszíne*/
+body{
+    background-color: darkgreen;
+    
+}
+
+/*A kontent háttérszíne és formázása*/
+table{
+    width: 1000px;
+    margin: auto;
+    border-spacing: 3px;
+    background-color: palegreen;
+}
+
+.content{
+    vertical-align: top;
+}
+
+/*A bal oldali szegély formázása*/
+.szegely{
+    padding: auto;
+}
+
+.oldalt{
+    width: 150px;
+    vertical-align: top;
+}
+
+.minta{
+    width: 106px;
+    height: 201px;
+}
+
+/*Főcím*/
+h2{
+    color: darkgreen;
+}
+
+/*Vízszintes vonal középre igazítása*/
+hr{
+    margin: auto;
+    width: 50%;
+}
+
+
+/*Utolsó bekezdés formázása*/
+.utolso{
+    text-align: center;
+
+}
+
+/*Kép formázása*/
+.kep2{
+    width: 400px;
+    height: 267px;
+    border: solid black 1px;
+}
+
+/*Táblázat formázása*/
+th, td{
+    padding: 3px;
+}
+
+/*Hivatkozások formázása*/
+a{
+    color: darkgreen;
+}
+
+a:active{
+    color: darkgreen;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+/* Balra és jobbra mutató nyilak pozícionálása*/
+
+.larr{
+    float: left;
+}
+
+.rarr{
+    float: right;
+}
+
